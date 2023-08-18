@@ -1,9 +1,11 @@
 # Test class for domain constant classes 
+
 This repository provides class `ZCL_FOSS_DOMAIN_CONSTANTS_TEST` as a parent class for your domain constant class unit tests.
 
 It has test methods to verify the integrity of your constant class, e.g. if it contains a constant for each domain fix values.
 
 # What's a domain constant class?
+
 A domain constant class contains constants for each value of a domain. 
 
 Please refer to the approriate section in the [Clean ABAP styleguide](https://github.com/SAP/styleguides/blob/93499d0/clean-abap/sub-sections/Enumerations.md) for more details on the subject.
@@ -24,6 +26,7 @@ ENDCLASS.
 ````
 
 # How to use 
+
 Simply inherit your test class from this class and implement method `GET_CLASS_NAME`.
 You can use method `DETERMINE_CLASS_NAME_FROM_TYPE` to do this dynamically without hard-coding the name of the class:
 
@@ -49,7 +52,13 @@ ENDCLASS.
 
 # Contributing
 
-If you want to contribute to this class, please use my recommended 
+If you want to contribute to this repository, please use [my recommended ABAP Cleaner Profile](https://github.com/ConjuringCoffee/abap-cleaner-recommendation).
+Pull requests are welcome.
+
+# What is `FOSS`?
+
+A dedicated application namespace wouldn't make much sense for a repository this small, so a more generic namespace made more sense.
+FOSS is an acronym for [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software).
 
 # Miscellaneous
 
