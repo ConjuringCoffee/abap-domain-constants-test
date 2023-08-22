@@ -2,7 +2,13 @@
 
 This repository provides class `ZCL_FOSS_DOMAIN_CONSTANTS_TEST` as a parent class for your domain constant class unit tests.
 
-It has test methods to verify the integrity of your constant class, e.g. if it contains a constant for each domain fix values.
+It has test methods to verify the integrity of your constant class:
+
+* Verify all constants are found in the domain fix values
+* Verify each domain fix value has a constant
+* Verify the constant values do not repeat
+* Verify the class is abstract
+* Verify all constants have the same type
 
 # What's a domain constant class?
 
