@@ -10,7 +10,7 @@ It has test methods to verify the integrity of your constant class:
 * Verify the class is abstract
 * Verify all constants have the same type
 
-# What's a domain constant class?
+## What's a domain constant class?
 
 A domain constant class contains constants for each value of a domain. 
 
@@ -31,7 +31,7 @@ CLASS zcl_ddsign_constant_class DEFINITION
 ENDCLASS.
 ````
 
-# How to use 
+## How to use 
 
 Simply inherit your test class from this class and implement method `GET_CLASS_NAME`.
 You can use method `DETERMINE_CLASS_NAME_FROM_TYPE` to do this dynamically without hard-coding the name of the class:
@@ -56,16 +56,20 @@ CLASS ltc_example_inheritor IMPLEMENTATION.
 ENDCLASS.
 ````
 
-# Contributing
+## Contributing
 
 If you want to contribute to this repository, please use [my recommended ABAP Cleaner Profile](https://github.com/ConjuringCoffee/abap-cleaner-recommendation).
 Pull requests are welcome.
 
-# What is `FOSS`?
+## What is `FOSS`?
 
 A dedicated application namespace wouldn't make much sense for a repository this small, so a more generic namespace made more sense.
 FOSS is an acronym for [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software).
 
-# Miscellaneous
+## Sponsor
+
+Work on this repository was sponsored by [Endress+Hauser InfoServe GmbH+Co. KG](https://www.endress.com/).
+
+## Miscellaneous
 
 The class was inspired by an example from the [Clean ABAP styleguide](https://github.com/SAP/styleguides/blob/93499d0/clean-abap/sub-sections/Enumerations.md#prefer-classes-to-interfaces).
