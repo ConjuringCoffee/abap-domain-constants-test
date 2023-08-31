@@ -27,6 +27,11 @@
      <DESCRIPT>All constants must use the same type</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>ALL_DOMAIN_VALUES_AS_CONSTANTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Each domain fix value must have a constant in the class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>CLASS_IS_ABSTRACT</CMPNAME>
      <LANGU>E</LANGU>
      <DESCRIPT>A constant class must be astract</DESCRIPT>
@@ -40,11 +45,6 @@
      <CMPNAME>DETERMINE_CLASS_NAME_FROM_TYPE</CMPNAME>
      <LANGU>E</LANGU>
      <DESCRIPT>Determine the class name from a variable of the class&apos; type.</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CMPNAME>DOMAIN_VALUES_AS_CONSTANTS</CMPNAME>
-     <LANGU>E</LANGU>
-     <DESCRIPT>Each domain fix value must have a constant in the class</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
    <DESCRIPTIONS_SUB>
