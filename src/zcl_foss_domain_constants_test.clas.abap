@@ -13,7 +13,7 @@ CLASS zcl_foss_domain_constants_test DEFINITION
 
   PROTECTED SECTION.
     "! <p class="shorttext synchronized">Each domain fix value must have a constant in the class</p>
-    METHODS domain_values_as_constants FOR TESTING.
+    METHODS all_domain_values_as_constants FOR TESTING.
 
     "! <p class="shorttext synchronized">Each constant must have a fix value in the comain</p>
     METHODS all_constants_found_in_domain FOR TESTING.
@@ -92,7 +92,7 @@ CLASS zcl_foss_domain_constants_test IMPLEMENTATION.
                                         act = lo_class_description->class_kind ).
   ENDMETHOD.
 
-  METHOD domain_values_as_constants.
+  METHOD all_domain_values_as_constants.
     LOOP AT mt_domain_values ASSIGNING FIELD-SYMBOL(<ls_domain_value>).
       DATA(lv_value_found) = abap_false.
 
