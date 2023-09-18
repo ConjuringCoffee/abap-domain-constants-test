@@ -1,3 +1,6 @@
+> **Warning**
+This repository is superseded by [ConjuringCoffee/abap-utesthelp](https://github.com/ConjuringCoffee/abap-utesthelp) and is no longer maintained.
+
 # Test class for domain constant classes 
 
 This repository provides class `ZCL_FOSS_DOMAIN_CONSTANTS_TEST` as a parent class for your domain constant class unit tests.
